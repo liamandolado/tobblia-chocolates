@@ -166,18 +166,11 @@
   </footer>
 
   <!-- ===== COGNIGY CLICK-TO-CALL WIDGET ===== -->
-  <script src="https://github.com/Cognigy/click-to-call-widget/releases/latest/download/webRTCWidget.js"></script>
+  <!-- Replace this whole block with the code from: Deploy > Endpoints > [your Voice Gateway Endpoint] > Click To Call Embedding HTML -->
+<script src="https://github.com/Cognigy/click-to-call-widget/releases/latest/download/webRTCWidget.js"></script>
 <script>
 	addEventListener("load", (event) => {if (window.initWebRTCWidget) {window.initWebRTCWidget("https://cognigy-endpoint-na1.nicecxone.com/b7a4ef17b428b58ee25d34b851fc71c39bb7b628717c46bb196d57035c1d09ac")}});
 </script>
-  <script src="https://github.com/Cognigy/click-to-call-widget/releases/latest/download/webRTCWidget.js"></script>
-  <script>
-    addEventListener("load", (event) => {
-      if (window.initWebRTCWidget) {
-        window.initWebRTCWidget("PASTE_YOUR_ENDPOINT_URL_WITH_TOKEN_HERE");
-      }
-    });
-  </script>
   <!-- ======================================== -->
 
 </body>
